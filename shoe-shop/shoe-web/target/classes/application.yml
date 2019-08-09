@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: shoe-shop
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.95.142.3:3306/shoeshop?useUnicode=true&characterEncoding=utf-8&useSSL=false&autoReconnect=true
+    username: root
+    data-password: ttiankan369*
+  redis:
+    host: 47.95.142.3
+    port: 6379
+    database: 0
+    password:
+  mvc:
+    view:
+      prefix: /WEB-INF/html/
+      suffix: .html
+
